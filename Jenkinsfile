@@ -13,7 +13,7 @@ pipeline {
     }
     stage('depoly') {
       steps {
-        sh 'echo date'
+        sh 'o2duhwiucvnefid nfe'
       }
     }
   }
