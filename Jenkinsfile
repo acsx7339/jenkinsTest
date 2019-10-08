@@ -13,7 +13,7 @@ pipeline {
     }
     stage('depoly') {
       steps {
-        sh 'o2duhwiucvnefid nfe'
+        sh 'dvcxvcxvxc'
       }
     }
   }
