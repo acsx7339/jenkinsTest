@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('---clean---') {
+        stage('---build---') {
             steps {
-               echo 'clean'
+               echo 'build'
             }
         }
         stage('--test--') {
@@ -11,9 +11,9 @@ pipeline {
                 echo 'test'
             }
         }
-        stage('--package--') {
+        stage('--finish--') {
             steps {
-               echo 'zcscdscsdc
+               echo 'finish'
             }
         }
     }
