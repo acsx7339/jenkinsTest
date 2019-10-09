@@ -16,6 +16,11 @@ pipeline {
                echo 'finishsaxd
             }
         }
+        stage('--finish2--') {
+            steps {
+                echo 'test'
+            }
+        }
     }
 }
 
