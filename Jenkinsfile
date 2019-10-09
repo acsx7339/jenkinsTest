@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'echo \'this is test\''
+        sh 'echo \'this is test'
       }
     }
     stage('depoly') {
