@@ -13,7 +13,7 @@ pipeline {
         }
         stage('--finish--') {
             steps {
-               echo 'finish'
+               echo 'finishsaxd
             }
         }
     }
