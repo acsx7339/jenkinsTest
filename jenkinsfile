@@ -3,22 +3,22 @@ pipeline {
     stages {
         stage('---build---') {
             steps {
-               echo 'build'
+               sh echo 'build'
             }
         }
         stage('--test--') {
             steps {
-                echo 'test'
+              sh  echo 'test'
             }
         }
         stage('--finish--') {
             steps {
-               echo 'finishsaxd'
+            sh   echo 'finishsaxd'
             }
         }
         stage('--finish2--') {
             steps {
-                echo 'test'
+               sh  echo 'test'
             }
         }
     }
