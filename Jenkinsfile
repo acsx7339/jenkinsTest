@@ -13,7 +13,12 @@ pipeline {
     }
     stage('depoly') {
       steps {
-        sh 'dvcxvcxvxc'
+        sh 'echo \'qweqeqw\''
+      }
+    }
+    stage('finish') {
+      steps {
+        sh 'echo \'finish\''
       }
     }
   }
